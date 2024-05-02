@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Validator;
 use App\Http\Controllers\studentController;
 
 
-
+//hpñaaasdsad
 Route::get('/students', [studentController::class, 'index']);
 
 Route::get('/students/{id}', [studentController::class, 'show']);
